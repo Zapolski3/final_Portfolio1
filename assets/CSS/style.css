@@ -1,0 +1,56 @@
+#firstDiv {
+    
+    color: white;
+  background-color:#2D3842;
+  height:25px;
+
+}
+
+#secondDiv {
+    background-color:#415060;
+    border-bottom: 4px solid green;
+    
+    /* box-shadow: 5px 5px 10px grey; */
+    /* border-radius: 30px 0px 30px 0px; */
+}
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding:5px;
+    font-size: 42px;
+    color:white;
+}
+
+.gitImg {
+    border-radius: 50px;
+}
+
+.firstPic {
+    float:left;
+    margin-right: 20px;
+   
+    box-shadow: 5px 5px 10px grey;
+}
+
+#aboutMe {
+    padding:25px;
+    border-radius: 2px;
+    
+   
+
+    /* box-shadow: 10px 10px 20px grey; */
+   
+}
+
+body {
+    
+    height:1700px;
+    background-image: url("../images/Screen\ Shot\ 2019-04-10\ at\ 12.10.13\ AM.png");
+    background-position: center;
+   
+    background-size: 1600px 1100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    
+}
