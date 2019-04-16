@@ -22,7 +22,7 @@
     <div id="secondDiv" class="container-fluid d-flex justify-content-between">
         <p class='name'>Pavel Zapolski</p>
         <div class="mt-2">
-            <a href="https://www.linkedin.com/in/pavel-zapolski-532391142"><img class="linkedInImg"
+            <a href="https://www.linkedin.com/in/pavel-zapolski-532391142"><img id="linkedIn"  class="linkedInImg"
                     src="assets/images/109347_media_512x512.png" width="70px" height="70px"></a>
             <a href="assets/resume/RESUME-converted.pdf" class="resume"><img src="assets/images/paralegal-resume.png"
                     width="70px" height="70px"></a>
@@ -111,6 +111,32 @@
 
 
     <div id="footer" class="fixed-bottom">.....</div>
+
+
+     <script>
+    
+         
+
+    function increaseSize (){
+        document.getElementById("linkedIn").className = "newClassName";
+         }
+
+         function decreaseSize (){
+        document.getElementById("linkedIn").className = "linkedInImg";
+         }
+
+         var test1 = document.getElementById("linkedIn");
+
+         test1.onmouseover = increaseSize;
+         test1.onmouseout = decreaseSize;
+         
+    
+        
+        
+
+
+
+     </script>
 </body>
 
 </html>

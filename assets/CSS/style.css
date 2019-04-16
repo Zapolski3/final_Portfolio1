@@ -20,10 +20,12 @@
     padding:5px;
     font-size: 42px;
     color:white;
+   
 }
 
 .gitImg, .linkedInImg {
     border-radius: 50px;
+    
 }
 
 .firstPic {
@@ -44,6 +46,7 @@
 }
 
 body {
+    
     
     height:1700px;
     background-image: url("../images/Screen\ Shot\ 2019-04-10\ at\ 12.10.13\ AM.png");
@@ -69,12 +72,13 @@ body {
     width:200px;
     color: white;
     background-color: #415060;
+  
     /* text-decoration:none; */
 }
 
-a {
+/* a {
     display: inline;
-}
+} */
 
 
 
@@ -121,3 +125,8 @@ a {
     margin: 10px;
     box-shadow: 5px 5px 10px grey;
 }
+.newClassName {
+    border-radius: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
