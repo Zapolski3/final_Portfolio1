@@ -9,7 +9,7 @@
 
 #secondDiv {
     background-color:#415060;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid greenyellow;
     
     /* box-shadow: 5px 5px 10px grey; */
     /* border-radius: 30px 0px 30px 0px; */
@@ -120,6 +120,12 @@ body {
     background-image: url("../images/Vivarail\ will\ use\ Transport\ for\ Wales\'\ existing\ fleet\ design.jpg")
 }
 
+#seventh {
+    width:200px;
+    height:180px;
+    background-image: url("../images/friendFinderPic.png")
+}
+
 .projects {
     background-size: 200px 180px;
     margin: 10px;
@@ -127,19 +133,21 @@ body {
 }
 
 
+
+
 /* =============== logo effects ========================================*/
 
 .newClassName1 {
     
     border-radius: 50px;
-    border-top: 2px dotted white;
-    border-bottom: 2px dotted white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 .newClassName2 {
     
     border-radius: 50px;
-    border-top: 2px dotted white;
-    border-bottom: 2px dotted white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 .normal {
@@ -150,6 +158,6 @@ body {
 .newClassName3 {
     
     border-radius: 50px;
-    border-top: 2px dotted black;
-    border-bottom: 2px dotted black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
