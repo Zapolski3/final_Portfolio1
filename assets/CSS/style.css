@@ -132,6 +132,12 @@ body {
     background-image: url("../images/burger.jpg");
 }
 
+#nineth {
+    width:200px;
+    height:180px;
+    background-image: url("../images/deals.png");
+}
+
 .projects {
     background-size: 200px 180px;
     margin: 10px;
