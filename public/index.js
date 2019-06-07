@@ -1,5 +1,6 @@
 function changeLinkedInLogo (){
     linkedInLogo.className = 'newClassName1';
+    
      }
 
      function unchangeLinkedInLogo (){
