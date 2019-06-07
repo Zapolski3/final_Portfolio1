@@ -1,7 +1,7 @@
-#firstDiv {
+#footerDiv {
     
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   background-color:#2D3842;
   /* box-shadow: 5px 5px 0px white; */
   border-bottom:1px solid #394060;
@@ -47,10 +47,11 @@
 
 body {
     
-    
-    height:1700px;
+    background-image: url("../images/burger.jpg");
+    height:auto;
     background-image: url("../images/Screen\ Shot\ 2019-04-10\ at\ 12.10.13\ AM.png");
     background-position: center;
+    
    
     background-size: auto;
     background-repeat: no-repeat;
@@ -59,8 +60,11 @@ body {
     
 }
 #footer {
+    margin-top:200px;
+    height:40px;
     background-color: #2D3842;
-    border-top:2px solid green;
+    border-top:.5px solid greenyellow;
+    /* bottom:0; */
 }
 
 /*=============================================== Portfolio ======================================== */

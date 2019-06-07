@@ -8,25 +8,19 @@
     <title>About Me!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="assets/CSS/style.css" type="text/css" rel="stylesheet">
+    <link href="../assets/CSS/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="firstDiv" class="container-fluid text-center">
-        <ul class="list-inline m-0">
-            <li class="list-inline-item"><b>Contact Info:</b></li>
-            <li class="list-inline-item"><i>email:</i> <b>Zapolski3@yahoo.com</b></li>
-            <li class="list-inline-item"><i>phone:</i> <b>(267) 391-8235</b></li>
-        </ul>
-    </div>
+    
     <div id="secondDiv" class="container-fluid d-flex justify-content-between">
         <p class='name'>Pavel Zapolski</p>
         <div class="mt-2">
             <a href="https://www.linkedin.com/in/pavel-zapolski-532391142"><img id="linkedIn"  class="linkedInImg"
-                    src="assets/images/109347_media_512x512.png" width="70px" height="70px"></a>
-            <a href="assets/resume/RESUME-converted.pdf" class="resume"><img id="resumeLogo" src="assets/images/paralegal-resume.png"
+                    src="../assets/images/109347_media_512x512.png" width="70px" height="70px"></a>
+            <a href="assets/resume/RESUME-converted.pdf" class="resume"><img id="resumeLogo" src="../assets/images/paralegal-resume.png"
                     width="70px" height="70px"></a>
-            <a href="https://github.com/Zapolski3"><img id="gitHubLogo" class="gitImg" src="assets/images/github_img.png" width="70px"
+            <a href="https://github.com/Zapolski3"><img id="gitHubLogo" class="gitImg" src="../assets/images/github_img.png" width="70px"
                     height="70px"></a>
         </div>
 
@@ -36,7 +30,7 @@
     <div id="aboutMe" class="container bg-white mt-3">
         <h1>About me</h1>
         <hr>
-        <img class="firstPic" src="assets/images/IMG_OF_ME.PNG" alt="picture of me in Italy" width="190px"
+        <img class="firstPic" src="../assets/images/IMG_OF_ME.PNG" alt="picture of me in Italy" width="190px"
             height="330px" class="img" />
 
         <p>Hello! My name is Pavel Zapolski. I came to the United Stated about 10 years ago from Eastern Europe.
@@ -127,53 +121,61 @@
     </div>
 
 
-    <div id="footer" class="fixed-bottom">.....</div>
+    <div id="footer" class="bottom">
+        <div id="footerDiv" class="container-fluid text-center">
+            <ul class="list-inline m-0">
+                <li class="list-inline-item"><b>Contact Info:</b></li>
+                <li class="list-inline-item"><i>email:</i> <b>Zapolski3@yahoo.com</b></li>
+                <li class="list-inline-item"><i>phone:</i> <b>(267) 391-8235</b></li>
+            </ul>
+        </div>
+    </div>
 
 
-     <script>
+     <script src="index.js">
     
     
 
-    function changeLinkedInLogo (){
-        linkedInLogo.className = 'newClassName1';
-         }
+    // function changeLinkedInLogo (){
+    //     linkedInLogo.className = 'newClassName1';
+    //      }
 
-         function unchangeLinkedInLogo (){
-            linkedInLogo.className = "linkedInImg";
+    //      function unchangeLinkedInLogo (){
+    //         linkedInLogo.className = "linkedInImg";
             
-         }
+    //      }
 
-         function changeResumeLogo (){
+    //      function changeResumeLogo (){
         
-        resumeLogo.className = 'newClassName2'
-         }
+    //     resumeLogo.className = 'newClassName2'
+    //      }
 
-         function unchangeResumeLogo (){
-            resumeLogo.className = "normal";
-         }
+    //      function unchangeResumeLogo (){
+    //         resumeLogo.className = "normal";
+    //      }
 
-         function changeGitHubLogo (){
-        gitHubLogo.className = 'newClassName3';
-         }
+    //      function changeGitHubLogo (){
+    //     gitHubLogo.className = 'newClassName3';
+    //      }
 
-         function unchangeGitHubLogo (){
-            gitHubLogo.className = "gitImg";
+    //      function unchangeGitHubLogo (){
+    //         gitHubLogo.className = "gitImg";
             
-         }
+    //      }
 
 
-         var linkedInLogo = document.getElementById("linkedIn");
-         var resumeLogo = document.getElementById('resumeLogo');
-         var gitHubLogo = document.getElementById("gitHubLogo");
+    //      var linkedInLogo = document.getElementById("linkedIn");
+    //      var resumeLogo = document.getElementById('resumeLogo');
+    //      var gitHubLogo = document.getElementById("gitHubLogo");
 
-         linkedInLogo.onmouseover = changeLinkedInLogo;
-         linkedInLogo.onmouseout = unchangeLinkedInLogo;
+    //      linkedInLogo.onmouseover = changeLinkedInLogo;
+    //      linkedInLogo.onmouseout = unchangeLinkedInLogo;
 
-         resumeLogo.onmouseover = changeResumeLogo;
-         resumeLogo.onmouseout = unchangeResumeLogo;
+    //      resumeLogo.onmouseover = changeResumeLogo;
+    //      resumeLogo.onmouseout = unchangeResumeLogo;
 
-         gitHubLogo.onmouseover = changeGitHubLogo;
-         gitHubLogo.onmouseout = unchangeGitHubLogo;
+    //      gitHubLogo.onmouseover = changeGitHubLogo;
+    //      gitHubLogo.onmouseout = unchangeGitHubLogo;
 
 
 
