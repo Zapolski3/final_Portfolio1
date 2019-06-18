@@ -9,7 +9,7 @@
 
 #secondDiv {
     background-color:#415060;
-    border-bottom: 2px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
     
     /* box-shadow: 5px 5px 10px grey; */
     /* border-radius: 30px 0px 30px 0px; */
@@ -20,11 +20,13 @@
     padding:5px;
     font-size: 42px;
     color:white;
+    
    
 }
 
 .gitImg, .linkedInImg {
-    border-radius: 50px;
+    border-radius: 20px;
+    /* box-shadow: 10px 200px 10px greenyellow; */
     
 }
 
@@ -75,16 +77,8 @@ body {
     font-size: 16px;
     width:200px;
     color: white;
-    background-color: #415060;
-  
-    /* text-decoration:none; */
+    background-color: #415060;  
 }
-
-/* a {
-    display: inline;
-} */
-
-
 
 #first {
     
@@ -137,16 +131,21 @@ body {
 }
 
 #nineth {
+    
     width:200px;
     height:180px;
     background-image: url("../images/deals.png");
 }
 
 .projects {
+    
     background-size: 200px 180px;
     margin: 10px;
-    box-shadow: 5px 5px 10px grey;
+    /* box-shadow: 5px 5px 10px grey; */
+    box-shadow: 15px 15px 25px grey;
+    border-radius: 5px;
 }
+
 
 
 
@@ -155,13 +154,14 @@ body {
 
 .newClassName1 {
     
-    border-radius: 50px;
+    border-radius: 20px;
+    /* border-style: double; */
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 }
 .newClassName2 {
     
-    border-radius: 50px;
+    border-radius: 20px;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 }
@@ -173,7 +173,7 @@ body {
 
 .newClassName3 {
     
-    border-radius: 50px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-radius: 20px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }

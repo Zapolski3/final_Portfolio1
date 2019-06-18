@@ -39,3 +39,17 @@ function changeLinkedInLogo (){
 
      gitHubLogo.onmouseover = changeGitHubLogo;
      gitHubLogo.onmouseout = unchangeGitHubLogo;
+
+     //====== this code will change shadow of items in portfolio =======
+     function backgroundEffect (){
+        console.log("there was movement over me")
+        portLogo.id = "nineth2";
+     } 
+     function backgroundEffectFree(){
+      portLogo.id = "nineth";
+     }
+
+     var portLogo = document.getElementsById("nineth");
+     portLogo.onmouseover = backgroundEffect;
+     portLogo.onmouseout = backgroundEffectFree;
+
