@@ -137,6 +137,12 @@ body {
     background-image: url("../images/deals.png");
 }
 
+#tenth {
+    width:200px;
+    height:180px;
+    background-image: url("../images/deals.png");
+}
+
 .projects {
     
     background-size: 200px 180px;
