@@ -6,22 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="assets/CSS/style.css" type="text/css" rel="stylesheet">
+    <!---------------------------- owl.carousel.js ------------------------------------->
+    <link rel="stylesheet" href="./assets/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owl-carousel/owl.theme.default.min.css">
+
+
+    <!------------------------------------ ------------------------------------->
 </head>
 
 <body>
-    
+
     <div id="secondDiv" class="container-fluid d-flex justify-content-between">
         <p class='name'>Pavel Zapolski</p>
         <div class="mt-2">
-            <a href="https://www.linkedin.com/in/pavel-zapolski-532391142"><img id="linkedIn"  class="linkedInImg"
+            <a href="https://www.linkedin.com/in/pavel-zapolski-532391142"><img id="linkedIn" class="linkedInImg"
                     src="assets/images/109347_media_512x512.png" width="70px" height="70px"></a>
-            <a href="assets/resume/RESUME-converted.pdf" class="resume"><img id="resumeLogo" src="assets/images/paralegal-resume.png"
-                    width="70px" height="70px"></a>
-            <a href="https://github.com/Zapolski3"><img id="gitHubLogo" class="gitImg" src="assets/images/github_img.png" width="70px"
-                    height="70px"></a>
+            <a href="assets/resume/RESUME-converted.pdf" class="resume"><img id="resumeLogo"
+                    src="assets/images/paralegal-resume.png" width="70px" height="70px"></a>
+            <a href="https://github.com/Zapolski3"><img id="gitHubLogo" class="gitImg"
+                    src="assets/images/github_img.png" width="70px" height="70px"></a>
         </div>
 
     </div>
@@ -57,73 +65,74 @@
     <div id="aboutMe" class="container  bg-white mt-3">
         <h1>Portfolio</h1>
         <hr>
-        <!-- <div id="one"> -->
+        <div class="owl-carousel owl-theme owl-loaded">
+            <!-- <div id="one"> -->
             <!-- <a class="gameLink" href="https://zapolski3.github.io/Psychic-Game/"> -->
-                <a href="https://zapolski3.github.io/Psychic-Game/" class="badge ">
+            <a href="https://zapolski3.github.io/Psychic-Game/" class="badge ">
                 <div id='first' class="projects">
                     <p class="pName">Psychic-Game</p>
                 </div>
             </a>
             <!-- <a class="gameLink" href="https://zapolski3.github.io/unit-4-game/"> -->
-                <a href="https://zapolski3.github.io/unit-4-game/" class="badge ">
+            <a href="https://zapolski3.github.io/unit-4-game/" class="badge ">
                 <div id='second' class="projects">
                     <p class="pName">Crystal Collector Game</p>
                 </div>
             </a>
-        <!-- </div>
+            <!-- </div>
         <div id="two"> -->
             <!-- <a class="gameLink" href="https://zapolski3.github.io/TriviaGame/"> -->
-                <a href="https://zapolski3.github.io/TriviaGame/" class="badge ">
+            <a href="https://zapolski3.github.io/TriviaGame/" class="badge ">
                 <div id='third' class="projects">
                     <p class="pName">Trivia Game</p>
                 </div>
             </a>
             <!-- <a class="gameLink" href="https://zapolski3.github.io/GifTastic/"> -->
-                <a href="https://zapolski3.github.io/GifTastic/" class="badge ">
+            <a href="https://zapolski3.github.io/GifTastic/" class="badge ">
                 <div id='fourth' class="projects">
                     <p class="pName">GifTastic</p>
                 </div>
             </a>
-        <!-- </div>
+            <!-- </div>
         <div id="three"> -->
             <!-- <a class="gameLink" href="https://zapolski3.github.io/FirstProject1/"> -->
-                <a href="https://zapolski3.github.io/FirstProject1/" class="badge ">
+            <a href="https://zapolski3.github.io/FirstProject1/" class="badge ">
                 <div id='fifth' class="projects">
                     <p class="pName">SousChef</p>
                 </div>
             </a>
             <!-- <a class="gameLink" href="https://zapolski3.github.io/Train-Scheduler/"> -->
-                <a href="https://zapolski3.github.io/Train-Scheduler/" class="badge ">
+            <a href="https://zapolski3.github.io/Train-Scheduler/" class="badge ">
                 <div id='sixth' class="projects">
                     <p class="pName">Train Scheduler</p>
                 </div>
             </a>
-        <!-- </div> -->
-        <a href="https://fathomless-shelf-29147.herokuapp.com/" class="badge ">
-            <div id='seventh' class="projects">
-                <p class="pName">Friend-Finder</p>
-            </div>
-        </a>
-        <a href="https://blooming-sands-36517.herokuapp.com/" class="badge ">
-            <div id='eight' class="projects">
-                <p class="pName">Eat-Da-burger</p>
-            </div>
-        </a>
-    </a>
-    <a href="https://stark-ravine-73218.herokuapp.com/" class="badge ">
-        <div id='nineth' class="projects">
-            <p class="pName">Deals For Steals!</p>
+            <!-- </div> -->
+            <a href="https://fathomless-shelf-29147.herokuapp.com/" class="badge ">
+                <div id='seventh' class="projects">
+                    <p class="pName">Friend-Finder</p>
+                </div>
+            </a>
+            <a href="https://blooming-sands-36517.herokuapp.com/" class="badge ">
+                <div id='eight' class="projects">
+                    <p class="pName">Eat-Da-burger</p>
+                </div>
+            </a>
+            </a>
+            <a href="https://stark-ravine-73218.herokuapp.com/" class="badge ">
+                <div id='nineth' class="projects">
+                    <p class="pName">Deals For Steals!</p>
+                </div>
+            </a>
+
+            <a href="https://peaceful-hamlet-77587.herokuapp.com/" class="badge ">
+                <div id='tenth' class="projects">
+                    <p class="pName">News-Scraper</p>
+                </div>
+            </a>
+
         </div>
-    </a>
 
-    <a href="https://peaceful-hamlet-77587.herokuapp.com/" class="badge ">
-        <div id='tenth' class="projects">
-            <p class="pName">News-Scraper</p>
-        </div>
-    </a>
-
-
-        
     </div>
 
 
@@ -138,62 +147,9 @@
     </div>
 
 
-     <script src="public/index.js">
-    
-    
-
-    // function changeLinkedInLogo (){
-    //     linkedInLogo.className = 'newClassName1';
-    //      }
-
-    //      function unchangeLinkedInLogo (){
-    //         linkedInLogo.className = "linkedInImg";
-            
-    //      }
-
-    //      function changeResumeLogo (){
-        
-    //     resumeLogo.className = 'newClassName2'
-    //      }
-
-    //      function unchangeResumeLogo (){
-    //         resumeLogo.className = "normal";
-    //      }
-
-    //      function changeGitHubLogo (){
-    //     gitHubLogo.className = 'newClassName3';
-    //      }
-
-    //      function unchangeGitHubLogo (){
-    //         gitHubLogo.className = "gitImg";
-            
-    //      }
-
-
-    //      var linkedInLogo = document.getElementById("linkedIn");
-    //      var resumeLogo = document.getElementById('resumeLogo');
-    //      var gitHubLogo = document.getElementById("gitHubLogo");
-
-    //      linkedInLogo.onmouseover = changeLinkedInLogo;
-    //      linkedInLogo.onmouseout = unchangeLinkedInLogo;
-
-    //      resumeLogo.onmouseover = changeResumeLogo;
-    //      resumeLogo.onmouseout = unchangeResumeLogo;
-
-    //      gitHubLogo.onmouseover = changeGitHubLogo;
-    //      gitHubLogo.onmouseout = unchangeGitHubLogo;
-
-
-
-        
-         
-    
-        
-        
-
-
-
-     </script>
+<script src="./public/index.js"></script>
+    <script src="./assets/owl-carousel/jquery.js"></script>
+    <script src="./assets/owl-carousel/owl.carousel.min.js"></script>
 </body>
 
 </html>

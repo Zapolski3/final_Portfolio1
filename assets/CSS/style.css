@@ -183,3 +183,12 @@ body {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
+
+.owl-next {
+    width: 30px;
+}
+
+.owl-prev{
+    width: 30px;
+}
+
