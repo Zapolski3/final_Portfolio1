@@ -49,7 +49,11 @@ function changeLinkedInLogo (){
       portLogo.id = "nineth";
      }
 
-     var portLogo = document.getElementsById("nineth");
+     var portLogo = document.getElementById("nineth");
      portLogo.onmouseover = backgroundEffect;
      portLogo.onmouseout = backgroundEffectFree;
+
+     // The code is to mess around with animate() method 
+     //=================================================================
+
 
