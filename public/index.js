@@ -60,7 +60,7 @@ function changeLinkedInLogo (){
      var tfv = $("#tfv");
    
      function hide(){
-        tfv.animate({opacity: "0.6"});
+        tfv.animate({opacity: "0.3"});
       show();
      }
 
@@ -69,12 +69,8 @@ function changeLinkedInLogo (){
         blink();
      }
 
-   function myFunction() {
-      setTimeout(function(){ alert("Hello"); }, 3000);
-    }
-
      function blink (){
-      setTimeout(hide, 3000);
+      setTimeout(hide, 4000);
     }
 
     blink();
