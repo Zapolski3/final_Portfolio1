@@ -53,7 +53,29 @@ function changeLinkedInLogo (){
    //   portLogo.onmouseover = backgroundEffect;
    //   portLogo.onmouseout = backgroundEffectFree;
 
-     // The code is to mess around with animate() method 
+
+     // This code will make "Thanks for visiting" img to slowly flash
      //=================================================================
 
+     var tfv = $("#tfv");
+   
+     function hide(){
+        tfv.animate({opacity: "0.6"});
+      show();
+     }
+
+     function show(){
+        tfv.animate({opacity: "1"});
+        blink();
+     }
+
+   function myFunction() {
+      setTimeout(function(){ alert("Hello"); }, 3000);
+    }
+
+     function blink (){
+      setTimeout(hide, 3000);
+    }
+
+    blink();
 
