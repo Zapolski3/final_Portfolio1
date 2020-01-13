@@ -54,7 +54,7 @@ function changeLinkedInLogo (){
    //   portLogo.onmouseout = backgroundEffectFree;
 
 
-     // This code will make "Thanks for visiting" img to slowly flash
+     // This code will make "Thanks for visiting" img  slowly flash
      //=================================================================
 
      var tfv = $("#tfv");
