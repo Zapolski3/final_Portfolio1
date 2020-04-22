@@ -158,9 +158,12 @@
     position: absolute;
     z-index: 1;
     color:white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
 }
 video{
-    overflow: hidden;
+    overflow-y: hidden;
+
 }
 
 
