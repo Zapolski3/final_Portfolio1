@@ -7,10 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me!</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/CSS/bootstrap/bootstrap.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="assets/CSS/style.css" type="text/css" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="assets/CSS/bootstrap/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/CSS/style.css" type="text/css">
+    
     <!---------------------------- owl.carousel.js ------------------------------------->
     <link rel="stylesheet" href="./assets/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/owl-carousel/owl.theme.default.min.css">
@@ -21,7 +25,7 @@
 
 <body>
 
-    <div id="secondDiv" class="container-fluid d-flex justify-content-between">
+    <!-- <div id="secondDiv" class="container-fluid d-flex justify-content-between">
         <p class='name'>Pavel Zapolski</p>
         <div class="mt-2">
             <a href="https://www.linkedin.com/in/pavel-zapolski-532391142"><img id="linkedIn" class="linkedInImg"
@@ -33,36 +37,82 @@
 
         </div>
 
+    </div> -->
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-dark">
+        <!-- <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">ABOUT ME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">PORTFOLIO<span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TECHNOLOGIES USED</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SOCIAL LINKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+   
+    <div class="container-fluid bg-light d-flex justify-content-center">
+        <div class="testDiv"><h3>Hello and Welcome</h3></div>
+        <video muted autoplay loop src="assets/videos-animations/Air Bubbles.mp4"  type="video/mp4"></video>
+        <video muted autoplay loop src="assets/videos-animations/Air Bubbles.mp4"  type="video/mp4"></video>
+
     </div>
+        <!-- <div class="row">
+        <div class="col-md-3">
+            <img class="img-fluid m-3" src="assets/images/IMG_OF_ME.PNG" alt="picture of me in Italy" />
+        </div>
+        <div class="col-md-9">
+            <div class="m-3">
+            <p>Hello! My name is Pavel Zapolski. I came to the United Stated about 11 years ago from Belarus.
+                My country is located right between Poland and Russia. It's a small country and if you open the map of
+                Eastern Europe you'll find it right away.</p>
+            <p>As soon as I came here, I started taking English classes. It was difficult at first but it was a lot
+                of fun. Learning something new is always exciting, especially when you learn a new language. After
+                finishing
+                all the ESL classes (English As a Second Language), I began taking classes for my major which was
+                business
+                administration. And soon after I graduated from Bucks County Community College with an Associate degree.
+                The
+                next big
+                event in my academic life happened when I graduated from Temple University with Bachelor's Degree in
+                Marketing.
+                If you ask me why I chose marketing as a major, I will not be able to answer you that question. Maybe my
+                teachers were teaching the
+                courses so well that I decided to stick to the major. Maybe, material of the course was very
+                interesting.
+                Perhaps,
+                combination of those two factors. But when I got my first job I was certain that this is not for me.
+                After
+                about 6 month of thinking and going through a lot of choices what to do as well as talking to my friends
+                and
+                colleagues, I finally decided
+                to dive into the IT world. And to be honest, the more I get into it the more I love it.</p>
+            </div>
+            <div >
+                <video width="24%" muted autoplay loop src="assets/videos-animations/Earth.mp4"  type="video/mp4">
+                     <source src="assets/videos-animations/Earth.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div> -->
+    
+    
 
-    <br>
-    <div id="aboutMe" class="container bg-white mt-3">
-        <h1>About me</h1>
-        <hr>
-        <img class="firstPic" src="assets/images/IMG_OF_ME.PNG" alt="picture of me in Italy" width="190px"
-            height="330px" class="img" />
-
-        <p>Hello! My name is Pavel Zapolski. I came to the United Stated about 11 years ago from Belarus.
-            My country is located right between Poland and Russia. It's a small country and if you open the map of
-            Eastern Europe you'll find it right away.</p>
-        <p>As soon as I came here, I started taking English classes. It was difficult at first but it was a lot
-            of fun. Learning something new is always exciting, especially when you learn a new language. After finishing
-            all the ESL classes (English As a Second Language), I began taking classes for my major which was business
-            administration. And soon after I graduated from Bucks County Community College with an Associate degree. The
-            next big
-            event in my academic life happened when I graduated from Temple University with Bachelor's Degree in
-            Marketing.
-            If you ask me why I chose marketing as a major, I will not be able to answer you that question. Maybe my
-            teachers were teaching the
-            courses so well that I decided to stick to the major. Maybe, material of the course was very interesting.
-            Perhaps,
-            combination of those two factors. But when I got my first job I was certain that this is not for me. After
-            about 6 month of thinking and going through a lot of choices what to do as well as talking to my friends and
-            colleagues, I finally decided
-            to dive into the IT world. And to be honest, the more I get into it the more I love it.</p>
-    </div>
-
-    <div id="aboutMe" class="container  bg-white mt-3">
+    <!-- <div id="aboutMe" class="container  bg-white mt-3">
         <h1>Portfolio</h1>
         <hr>
         <div class="owl-carousel owl-theme owl-loaded">
@@ -76,55 +126,55 @@
                     <p class="pName">Psychic-Game</p>
                 </div>
             </a>
-            <!-- <a class="gameLink" href="https://zapolski3.github.io/unit-4-game/"> -->
+            <a class="gameLink" href="https://zapolski3.github.io/unit-4-game/">
             <a href="https://zapolski3.github.io/unit-4-game/" class="badge ">
                 <div id='second' class="projects">
                     <p class="pName">Crystal Collector Game</p>
                 </div>
-            </a>
+            </a> -->
             <!-- </div>
         <div id="two"> -->
             <!-- <a class="gameLink" href="https://zapolski3.github.io/TriviaGame/"> -->
-            <a href="https://zapolski3.github.io/TriviaGame/" class="badge ">
+            <!-- <a href="https://zapolski3.github.io/TriviaGame/" class="badge ">
                 <div id='third' class="projects">
                     <p class="pName">Trivia Game</p>
                 </div>
-            </a>
+            </a> -->
             <!-- <a class="gameLink" href="https://zapolski3.github.io/GifTastic/"> -->
-            <a href="https://zapolski3.github.io/GifTastic/" class="badge ">
+            <!-- <a href="https://zapolski3.github.io/GifTastic/" class="badge ">
                 <div id='fourth' class="projects">
                     <p class="pName">GifTastic</p>
                 </div>
-            </a>
+            </a> -->
             <!-- </div>
         <div id="three"> -->
             <!-- <a class="gameLink" href="https://zapolski3.github.io/FirstProject1/"> -->
-            <a href="https://zapolski3.github.io/FirstProject1/" class="badge ">
+            <!-- <a href="https://zapolski3.github.io/FirstProject1/" class="badge ">
                 <div id='fifth' class="projects">
                     <p class="pName">SousChef</p>
                 </div>
-            </a>
+            </a> -->
             <!-- <a class="gameLink" href="https://zapolski3.github.io/Train-Scheduler/"> -->
-            <a href="https://zapolski3.github.io/Train-Scheduler/" class="badge ">
+            <!-- <a href="https://zapolski3.github.io/Train-Scheduler/" class="badge ">
                 <div id='sixth' class="projects">
                     <p class="pName">Train Scheduler</p>
                 </div>
-            </a>
+            </a> -->
             <!-- </div> -->
-            <a href="https://fathomless-shelf-29147.herokuapp.com/" class="badge ">
+            <!-- <a href="https://fathomless-shelf-29147.herokuapp.com/" class="badge ">
                 <div id='seventh' class="projects">
                     <p class="pName">Friend-Finder</p>
                 </div>
-            </a>
-            <a href="https://blooming-sands-36517.herokuapp.com/" class="badge ">
+            </a> -->
+            <!-- <a href="https://blooming-sands-36517.herokuapp.com/" class="badge ">
                 <div id='eight' class="projects">
                     <p class="pName">Eat-Da-burger</p>
                 </div>
-            </a>
+            </a> -->
             <!-- </a> -->
 
 
-            <a href="https://peaceful-hamlet-77587.herokuapp.com/" class="badge ">
+            <!-- <a href="https://peaceful-hamlet-77587.herokuapp.com/" class="badge ">
                 <div id='tenth' class="projects">
                     <p class="pName">News-Scraper</p>
                 </div>
@@ -132,12 +182,12 @@
 
         </div>
 
-    </div>
+    </div> -->
     <div id="aboutMe" class="container  bg-white mt-3">
         <p><b>Technologies used</b></p>
         <hr>
         <div class="row">
-                
+
             <div class="col ml-3">
                 <img src="./assets/images/technologiesDiv/js.png" alt="javascript logo" width="76px" height="76px" />
             </div>
@@ -151,32 +201,62 @@
                 <img src="./assets/images/technologiesDiv/jquery.png" alt="jQuery logo" width="76px" height="76px" />
             </div>
             <div class="col ml-3">
-                <img src="./assets/images/technologiesDiv/bootstrap.jpg" alt="bootstrap logo" width="76px" height="76px" />
+                <img src="./assets/images/technologiesDiv/bootstrap.jpg" alt="bootstrap logo" width="76px"
+                    height="76px" />
             </div>
             <div class="col ml-3">
                 <img src="./assets/images/technologiesDiv/owl.png" alt="owl carousel logo" width="76px" height="76px" />
             </div>
-            <div  class="col ml-3">
-                    <img  id="tfv" src="assets/images/Thanks for visiting.png" height="86px" width="86px">
-                </div>
+            <div class="col ml-3">
+                <img id="tfv" src="assets/images/Thanks for visiting.png" height="86px" width="86px">
+            </div>
+
+        </div>
+    </div> 
+    <!-- =========================================================================================== -->
+    <div id="aboutMe" class="container  bg-white mt-3">
+        <p><b>Technologies used</b></p>
+        <hr>
+        <div class="row">
+
+            <div class="col ml-3">
+                <img src="./assets/images/technologiesDiv/js.png" alt="javascript logo" width="76px" height="76px" />
+            </div>
+            <div class="col ml-3">
+                <img src="./assets/images/technologiesDiv/html.png" alt="html logo" width="76px" height="76px" />
+            </div>
+            <div class="col ml-3">
+                <img src="./assets/images/technologiesDiv/css.png" alt="css logo" width="76px" height="76px" />
+            </div>
+            <div class="col ml-3">
+                <img src="./assets/images/technologiesDiv/jquery.png" alt="jQuery logo" width="76px" height="76px" />
+            </div>
+            <div class="col ml-3">
+                <img src="./assets/images/technologiesDiv/bootstrap.jpg" alt="bootstrap logo" width="76px"
+                    height="76px" />
+            </div>
+            <div class="col ml-3">
+                <img src="./assets/images/technologiesDiv/owl.png" alt="owl carousel logo" width="76px" height="76px" />
+            </div>
+            <div class="col ml-3">
+                <img id="tfv" src="assets/images/Thanks for visiting.png" height="86px" width="86px">
+            </div>
 
         </div>
     </div>
+    
+    
+    <div class="ft container-fluid" >
+        <div class="row">
+            <div class="col-md-3">Email@: test</div>
+            <div class="col-md-3">Phone: test</div>
+            <div class="col-md-3">other info: test</div>
+            <div class="col-md-3">Contact form: test</div>
 
-
-</div>
-</div>
-
-    <div id="footer" class="bottom">
-        <div id="footerDiv" class="container-fluid text-center">
-            <ul class="list-inline m-0">
-                <li class="list-inline-item"><b>Contact Info:</b></li>
-                <li class="list-inline-item"><i>email:</i> <b>Zapolski3@yahoo.com</b></li>
-                <li class="list-inline-item"><i>phone:</i> <b>(267) 391-8235</b></li>
-            </ul>
         </div>
-    </div>
 
+    </div>
+    
 
     <script src="./public/index.js"></script>
     <script src="./assets/owl-carousel/jquery.js"></script>
