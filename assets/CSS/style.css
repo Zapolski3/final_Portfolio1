@@ -153,18 +153,26 @@
 
 }
 
-.testDiv{
+.greetingDiv{
     top:100px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     color:white;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
 }
-#videoDiv{
-    overflow: hidden;
-    
+#firstVideo{
+    overflow: hidden;    
 }
+#secondVideo{
+   top:67px;
+    overflow: hidden; 
+    position:absolute;
+    z-index: 1;
+    opacity:0.7;
+}
+
+
 
 
 /* ====================================================================  */
