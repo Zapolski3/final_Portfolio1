@@ -5,6 +5,9 @@ body {
     background-image:url("../images/BG-imgs/landscape-4961094_1920.jpg");
     background-color:#cccccc;
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 
@@ -12,148 +15,6 @@ body {
 
 
 /*=============================================== Portfolio ======================================== */
-
-
-
-.pName {
-    font-size: 16px;
-    width:200px;
-    color: white;
-    background-color: #415060;  
-}
-
-#first {
-    
-    width:200px;
-    height:180px;
-    background-image: url("../images/psychic-education.jpg");
-    background-repeat: no-repeat;
-}
-
-#second {
-    width:200px;
-    height:180px;
-    background-image: url("../images/image.jpeg");
-}
-
-#third {
-    width:200px;
-    height:180px;
-    background-image: url("../images/trivia_game.jpg");
-}
-
-#fourth {
-    width:200px;
-    height:180px;
-    background-image: url("../images/img4.jpg");
-}
-
-#fifth {
-    width:200px;
-    height:180px;
-    background-image: url("../images/img5.jpg");
-}
-
-#sixth {
-    width:200px;
-    height:180px;
-    background-image: url("../images/Vivarail\ will\ use\ Transport\ for\ Wales\'\ existing\ fleet\ design.jpg");
-}
-
-#seventh {
-    width:200px;
-    height:180px;
-    background-image: url("../images/friendFinderPic.png");
-}
-
-#eight {
-    width:200px;
-    height:180px;
-    background-image: url("../images/burger.jpg");
-}
-
-#nineth {
-    
-    width:200px;
-    height:180px;
-    background-image: url("../images/deals.png");
-}
-
-#tenth {
-    width:200px;
-    height:180px;
-    background-image: url("../images/news-1.jpg");
-    /* margin-right:60px; */
-}
-
-.projects {
-    
-    background-size: 200px 180px;
-    margin: 10px;
-    /* box-shadow: 5px 5px 10px grey; */
-    box-shadow: 15px 15px 25px grey;
-    border-radius: 5px;
-}
-
-
-
-
-
-/* =============== logo effects ========================================*/
-
-.newClassName1 {
-    
-    border-radius: 20px;
-    /* border-style: double; */
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-.newClassName2 {
-    
-    border-radius: 20px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-
-.normal {
-    width:70px;
-    height:70px;
-}
-
-.newClassName3 {
-    
-    border-radius: 20px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-}
-
-.owl-next {
-    width: 30px;
-}
-
-.owl-prev{
-    width: 30px;
-}
-
-
-.ft{
-    height:200px;
-    /* position:relative; */
-    bottom:0px;
-    background-color: black;
-    color:white;
-
-}
-
-.greetingDiv{
-    top:100px;
-    position: absolute;
-    z-index: 2;
-    color:white;
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 
 
 
