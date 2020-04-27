@@ -11,13 +11,20 @@ body {
      
 }
 
+
 @media only screen and (max-width: 767px){
     body{
         background-image:url(../images/BG-imgs/landscape-smaller.jpg);
     }
 }
 
-
+h1{
+    visibility: hidden;
+    color: white;
+    margin-top: 90px;
+    width:350px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 
 
