@@ -4,7 +4,7 @@ body {
     
     background-image:url("../images/BG-imgs/landscape-4961094_1920.jpg");
     background-color:#464646;
-    background-size: cover;
+    background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,9 +13,11 @@ body {
 
 @media only screen and (max-width: 767px){
     body{
-        background-image: url(../images/BG-imgs/landscape-smaller.jpg);
+        background-image:url(../images/BG-imgs/landscape-smaller.jpg);
     }
 }
+
+
 
 
 
