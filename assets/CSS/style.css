@@ -19,11 +19,15 @@ body {
 }
 
 h1{
-    visibility: hidden;
+    
+    /* visibility: hidden; */
     color: white;
-    margin-top: 90px;
-    width:350px;
+    opacity:0;
     font-family: 'Times New Roman', Times, serif;
+}
+
+#spacer{
+    margin-top:57px;
 }
 
 
