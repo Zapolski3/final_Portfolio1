@@ -2,7 +2,7 @@
 
 body {
     
-    background-image:url("../images/BG-imgs/landscape-4961094_1920.jpg");
+    background-image:url("../images/BG-imgs/tree-3072431_1920\ copy.jpg");
     background-color:#464646;
     background-size:cover;
     background-position: center center;
@@ -14,7 +14,7 @@ body {
 
 @media only screen and (max-width: 767px){
     body{
-        background-image:url(../images/BG-imgs/landscape-smaller.jpg);
+        background-image:url(../images/BG-imgs/tree-3072431_1920.jpg);
     }
 }
 
@@ -24,6 +24,7 @@ h1{
     color: white;
     opacity:0;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 #spacer{
