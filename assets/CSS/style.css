@@ -31,6 +31,29 @@ h1{
     margin-top:57px;
 }
 
+#img{
+    float:left;
+    margin:10px;
+    margin-bottom: 0px;
+    
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color:white;
+}
+
+#parent{
+    visibility: hidden;
+    background: rgba(0,0,0,0.20);
+    padding:15px;
+    border-radius: 3px;
+    
+}
+
+
+
 
 
 /*=============================================== Portfolio ======================================== */
