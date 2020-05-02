@@ -53,13 +53,8 @@ p{
     
 }
 
-.hidden{
-    visibility:hidden;
-   height:0px;
-}
-
-.visible{
-    visibility:visible;
+.hide{
+    display:none;
 }
 
 
